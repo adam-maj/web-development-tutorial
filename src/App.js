@@ -39,7 +39,6 @@ function App() {
                 </Suspense>
               </Route>
 
-
               <Route path="/" exact>
                 <Suspense fallback={<Section />}>
                   <Home />
